@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book your premium detailing slot. Get in touch with AUTOREFLECT, message us directly on WhatsApp, or find our location on Google Maps.">
+    <meta name="keywords" content="auto detailing, ceramic coating, paint protection film, PPF, paint correction, car wash, luxury car care, mirror finish">
+    <meta name="author" content="AUTOREFLECT">
+    
+    <!-- Dynamic Page Title -->
+    <title>Contact Us | AUTOREFLECT - The Mirror Finish Experts</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="Untitled_design__9_-removebg-preview.png">
+    
+    <!-- FontAwesome CDN for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo-container" aria-label="AUTOREFLECT Home">
+                <img src="autoreflectpng.png" alt="AUTOREFLECT Logo" class="logo-img">
+            </a>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="hamburger" aria-label="Toggle Navigation menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <!-- Main Navigation Links -->
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="services.html" class="nav-link dropdown-toggle">Services <i class="fas fa-chevron-down" style="font-size: 0.65rem; margin-left: 3px; transition: var(--transition-fast);"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="ceramic.html" class="dropdown-link">Ceramic Coating</a></li>
+                            <li><a href="ppf.html" class="dropdown-link">PPF Protection</a></li>
+                            <li><a href="paint.html" class="dropdown-link">Paint Correction</a></li>
+                            <li><a href="wash.html" class="dropdown-link">Premium Car Wash</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="contact.html" class="btn btn-primary btn-glow btn-sm" style="padding: 8px 20px; font-size: 0.75rem;">Book Slot</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="section-header reveal" style="margin-bottom: 0;">
+                <h2>Contact & <span class="highlight">Booking</span></h2>
+                <p>Ready to experience the ultimate mirror finish? Let's connect.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Info Grid -->
+    <section class="contact-body" style="background-color: var(--bg-dark); padding-top: 50px;">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <!-- Left Column: Info & WhatsApp -->
+                <div class="contact-info-panel glass-panel reveal-left">
+                    <h3>Contact Info</h3>
+                    <p>Have questions about paint protection, ceramic coatings, or need an estimate? Drop us a line, visit our studio, or chat with us instantly on WhatsApp.</p>
+                    
+                    <div class="contact-details">
+                        <!-- Address -->
+                        <div class="contact-detail-item">
+                            <div class="icon-box"><i class="fas fa-map-location-dot"></i></div>
+                            <div class="detail-content">
+                                <h4>Studio Location</h4>
+                                <p>opp. Panipuri.com, behind The Barnyard Co, Tragad, Ahmedabad, Gujarat 382470</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Phone -->
+                        <div class="contact-detail-item">
+                            <div class="icon-box"><i class="fas fa-phone-volume"></i></div>
+                            <div class="detail-content">
+                                <h4>Phone Booking</h4>
+                                <p><a href="tel:+919106923366">+91 9106923366</a></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Email -->
+                        <div class="contact-detail-item">
+                            <div class="icon-box"><i class="fas fa-envelope-open-text"></i></div>
+                            <div class="detail-content">
+                                <h4>Direct Email</h4>
+                                <p><a href="mailto:autoreflect33@gmail.com">autoreflect33@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp Click to Chat Banner Link -->
+                    <a href="https://wa.me/919106923366?text=Hello%20AUTOREFLECT!%20I%20would%20like%20to%20inquire%20about%20booking%20a%20detailing%20slot%20for%20my%20car." 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="whatsapp-banner">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Chat Instantly on WhatsApp</span>
+                    </a>
+                </div>
+
+                <!-- Right Column: Interactive Form -->
+                <div class="contact-form-panel glass-panel reveal-right">
+                    <h3>Book Your Slot</h3>
+                    <form id="detailingContactForm" novalidate>
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Mobile Number *</label>
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="+91 9106923366" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="car" class="form-label">Car Model *</label>
+                                <input type="text" id="car" name="car" class="form-control" placeholder="Hyundai Creta" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service" class="form-label">Desired Service</label>
+                            <select id="service" name="service" class="form-control" style="appearance: none; background-image: url('data:image/svg+xml;utf8,<svg fill=%22%23a0a0a5%22 height=%2224%22 viewBox=%220 0 24 24%22 width=%2224%22 xmlns=%22http://www.w3.org/2000/svg%22><path d=%22M7 10l5 5 5-5z%22/><path d=%22M0 0h24v24H0z%22 fill=%22none%22/></svg>'); background-repeat: no-repeat; background-position: right 15px center;">
+                                <option value="">-- Select a Treatment (Optional) --</option>
+                                <option value="Ceramic Coating">Ceramic Coating</option>
+                                <option value="PPF Protection Film">PPF (Paint Protection Film)</option>
+                                <option value="Paint Correction">Paint Correction</option>
+                                <option value="Premium Car Wash">Premium Car Wash</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Special Requests / Message</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Tell us about your car's paint condition or request custom details..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-glow">Submit Slot Request</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Map Section (IMPORTANT) -->
+    <section class="map-section" style="background-color: var(--bg-dark); border-top: 1px solid rgba(255, 255, 255, 0.02);">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Find Us on <span class="highlight">Google Maps</span></h2>
+                <p>Visit our climate-controlled detailing studio in the heart of Tragad.</p>
+            </div>
+            
+            <!-- Bordered Container with Shadow Glow Effect -->
+            <div class="map-container reveal">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.035000738328!2d72.5602595750953!3d23.132395879097032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e83006dd39b3f%3A0x8716a1ebf8a7e36e!2sAuto%20Reflect!5e0!3m2!1sen!2sin!4v1780506009404!5m2!1sen!2sin" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="AUTOREFLECT Studio Location Map">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: About & Branding -->
+                <div class="footer-col footer-about">
+                    <a href="index.html" class="logo-container" style="margin-bottom: 20px; display: inline-flex;">
+                        <img src="autoreflectpng.png" alt="AUTOREFLECT Logo" class="logo-img">
+                    </a>
+                    <p>AUTOREFLECT is the ultimate destination for luxury car detailing, paint preservation, and reflection perfection. We treat every vehicle as a work of art.</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/autoreflectofficial?igsh=MTJyOGkwbnFkZjRxNw==" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@autoreflect33?si=MOmMUop_4ER_bFYG" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://wa.me/919106923366" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="contact.html">Contact & Location</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Services -->
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="ceramic.html">Ceramic Coating</a></li>
+                        <li><a href="ppf.html">PPF (Paint Protection Film)</a></li>
+                        <li><a href="paint.html">Paint Correction</a></li>
+                        <li><a href="wash.html">Premium Car Wash</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Contact Info -->
+                <div class="footer-col footer-contact">
+                    <h4>Get In Touch</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>opp. Panipuri.com, behind The Barnyard Co, Tragad, Ahmedabad, Gujarat 382470</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+919106923366">+91 9106923366</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:autoreflect33@gmail.com">autoreflect33@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Sun: 9:00 AM - 8:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2026 AUTOREFLECT. All Rights Reserved. Designed for premium perfection.
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
