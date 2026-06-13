@@ -965,6 +965,9 @@ footer::before {
 .testimonial-card {
     padding: 35px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .testimonial-stars {
@@ -978,12 +981,14 @@ footer::before {
     color: var(--text-gray);
     margin-bottom: 25px;
     font-size: 0.95rem;
+    flex-grow: 1;
 }
 
 .testimonial-author {
     display: flex;
     align-items: center;
     gap: 15px;
+    margin-top: auto;
 }
 
 .author-img {
@@ -992,6 +997,24 @@ footer::before {
     border-radius: 50%;
     border: 2px solid var(--primary-yellow);
     object-fit: cover;
+}
+
+.author-avatar-initial {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-yellow);
+    background: rgba(255, 230, 0, 0.08);
+    color: var(--primary-yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(255, 230, 0, 0.15);
+    flex-shrink: 0;
 }
 
 .author-info h4 {
