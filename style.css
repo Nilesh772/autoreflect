@@ -44,7 +44,8 @@
     scroll-behavior: smooth;
 }
 
-html, body {
+html,
+body {
     width: 100%;
     overflow-x: hidden;
 }
@@ -1701,17 +1702,21 @@ textarea.form-control {
     .section-header h2 {
         font-size: 1.6rem;
     }
+
     .before-after-slider-container {
         height: 320px;
     }
+
     .slider-label {
         font-size: 0.65rem;
         padding: 4px 10px;
         bottom: 15px;
     }
+
     .slider-label.label-before {
         right: 15px;
     }
+
     .slider-label.label-after {
         left: 15px;
     }
