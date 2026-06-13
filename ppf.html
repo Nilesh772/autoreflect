@@ -185,13 +185,15 @@
                     <!-- Before image (Z-Index 1) -->
                     <div class="before-after-img-wrapper before-img">
                         <img src="ppfb.png" alt="Before treatment">
-                        <span class="slider-label label-before">Before PPF Protection</span>
                     </div>
                     <!-- After image (Z-Index 2, dynamic clipping) -->
                     <div class="before-after-img-wrapper after-img">
                         <img src="ppfa.png" alt="After treatment finish">
-                        <span class="slider-label label-after">After PPF Protection</span>
                     </div>
+
+                    <!-- Labels placed directly in container to avoid clip-path issues -->
+                    <span class="slider-label label-before">Before PPF Protection</span>
+                    <span class="slider-label label-after">After PPF Protection</span>
 
                     <!-- Input slider range control (Z-Index 10) -->
                     <input type="range" min="0" max="100" value="50" class="slider-handle"

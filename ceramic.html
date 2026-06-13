@@ -194,13 +194,15 @@
                     <!-- Before image (Z-Index 1) -->
                     <div class="before-after-img-wrapper before-img">
                         <img src="sib.png" alt="Before treatment">
-                        <span class="slider-label label-before">Before Ceramic Coating</span>
                     </div>
                     <!-- After image (Z-Index 2, dynamic clipping) -->
                     <div class="before-after-img-wrapper after-img">
                         <img src="sia.png" alt="After treatment finish">
-                        <span class="slider-label label-after">After Ceramic Coating</span>
                     </div>
+
+                    <!-- Labels placed directly in container to avoid clip-path issues -->
+                    <span class="slider-label label-before">Before Ceramic Coating</span>
+                    <span class="slider-label label-after">After Ceramic Coating</span>
 
                     <!-- Input slider range control (Z-Index 10) -->
                     <input type="range" min="0" max="100" value="50" class="slider-handle"
